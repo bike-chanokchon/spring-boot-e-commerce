@@ -1,0 +1,14 @@
+
+	create multi-module maven project
+
+	ShopmeProject
+	- pom file
+	- root project
+		>>> ShopmeCommon 
+		- jar file
+		- สำหรับแชร์ library ระหว่าง backed & fronted หรือ code ที่ใช้ร่วมกัน
+		>>> ShopemeWebPapent 
+		- pom file
+		- มีไว้สำหรับการใช้งาน dependencies injection ร่วมกันระหว่าง backed และ fronted
+			>>> ShopmeBackend
+			- jar file
